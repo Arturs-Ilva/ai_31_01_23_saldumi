@@ -32,6 +32,7 @@ namespace ai_Saldumi_11
             double Naudas_daudzums_eur = Convert.ToInt32(this.Nauda_daudzums_textbox.Text);
             double Rezultats_eur = 0;
             Rezultats_eur = Naudas_daudzums_eur / 9.88;
+            Rezultats_eur = Math.Round(Rezultats_eur, 2);
             this.Saldumi_rezultats_textbox.Text = Rezultats_eur.ToString();
         }
     }

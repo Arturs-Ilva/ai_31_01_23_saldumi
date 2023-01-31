@@ -78,10 +78,10 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(77, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(704, 13);
+            this.label2.Size = new System.Drawing.Size(552, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Sveicinati saldumu veikala \"Artura saldumi un vel kautkas\"! Seit jus aprekinasiet" +
-    " cik saldumus jus varat iegadaties, musu saldumi maksa 9,88eur/kg.";
+            this.label2.Text = "Sveicinati saldumu veikala! Seit jus aprekinasiet cik saldumus jus varat iegadati" +
+    "es, musu saldumi maksa 9,88eur/kg.";
             // 
             // label3
             // 
