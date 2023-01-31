@@ -16,5 +16,20 @@ namespace ai_Saldumi_11
         {
             InitializeComponent();
         }
+
+        private void Saldumi_daudzums_textbox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Saldumi_aprekinat_button_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

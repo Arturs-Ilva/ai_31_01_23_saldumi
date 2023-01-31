@@ -1,0 +1,10 @@
+Z:\datorika\11klase\ai_Saldumi_11\ai_Saldumi_11\bin\Debug\ai_Saldumi_11.exe.config
+Z:\datorika\11klase\ai_Saldumi_11\ai_Saldumi_11\bin\Debug\ai_Saldumi_11.exe
+Z:\datorika\11klase\ai_Saldumi_11\ai_Saldumi_11\bin\Debug\ai_Saldumi_11.pdb
+Z:\datorika\11klase\ai_Saldumi_11\ai_Saldumi_11\obj\Debug\ai_Saldumi_11.csprojAssemblyReference.cache
+Z:\datorika\11klase\ai_Saldumi_11\ai_Saldumi_11\obj\Debug\ai_Saldumi_11.Form1.resources
+Z:\datorika\11klase\ai_Saldumi_11\ai_Saldumi_11\obj\Debug\ai_Saldumi_11.Properties.Resources.resources
+Z:\datorika\11klase\ai_Saldumi_11\ai_Saldumi_11\obj\Debug\ai_Saldumi_11.csproj.GenerateResource.cache
+Z:\datorika\11klase\ai_Saldumi_11\ai_Saldumi_11\obj\Debug\ai_Saldumi_11.csproj.CoreCompileInputs.cache
+Z:\datorika\11klase\ai_Saldumi_11\ai_Saldumi_11\obj\Debug\ai_Saldumi_11.exe
+Z:\datorika\11klase\ai_Saldumi_11\ai_Saldumi_11\obj\Debug\ai_Saldumi_11.pdb
