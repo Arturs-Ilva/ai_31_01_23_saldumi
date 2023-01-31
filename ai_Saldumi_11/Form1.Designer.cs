@@ -114,7 +114,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.BackgroundImage = global::ai_Saldumi_11.Properties.Resources.Saldumu_bilde;
+            this.ClientSize = new System.Drawing.Size(825, 539);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
