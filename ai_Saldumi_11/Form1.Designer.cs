@@ -40,12 +40,14 @@
             // 
             // Saldumi_aprekinat_button
             // 
+            this.Saldumi_aprekinat_button.BackColor = System.Drawing.Color.DodgerBlue;
+            this.Saldumi_aprekinat_button.ForeColor = System.Drawing.SystemColors.ActiveBorder;
             this.Saldumi_aprekinat_button.Location = new System.Drawing.Point(319, 186);
             this.Saldumi_aprekinat_button.Name = "Saldumi_aprekinat_button";
             this.Saldumi_aprekinat_button.Size = new System.Drawing.Size(100, 77);
             this.Saldumi_aprekinat_button.TabIndex = 0;
             this.Saldumi_aprekinat_button.Text = "Aprekinat";
-            this.Saldumi_aprekinat_button.UseVisualStyleBackColor = true;
+            this.Saldumi_aprekinat_button.UseVisualStyleBackColor = false;
             this.Saldumi_aprekinat_button.Click += new System.EventHandler(this.Saldumi_aprekinat_button_Click);
             // 
             // Nauda_daudzums_textbox
@@ -116,7 +118,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.BackgroundImage = global::ai_Saldumi_11.Properties.Resources.Saldumu_bilde;
-            this.ClientSize = new System.Drawing.Size(825, 539);
+            this.ClientSize = new System.Drawing.Size(823, 542);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
