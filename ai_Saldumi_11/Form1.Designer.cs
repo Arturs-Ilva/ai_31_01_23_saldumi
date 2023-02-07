@@ -53,8 +53,8 @@
             // 
             // Saldumi_aprekinat_button
             // 
-            this.Saldumi_aprekinat_button.BackColor = System.Drawing.Color.DodgerBlue;
-            this.Saldumi_aprekinat_button.ForeColor = System.Drawing.SystemColors.ActiveBorder;
+            this.Saldumi_aprekinat_button.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Saldumi_aprekinat_button.ForeColor = System.Drawing.Color.White;
             this.Saldumi_aprekinat_button.Location = new System.Drawing.Point(343, 320);
             this.Saldumi_aprekinat_button.Name = "Saldumi_aprekinat_button";
             this.Saldumi_aprekinat_button.Size = new System.Drawing.Size(100, 77);
@@ -81,6 +81,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label1.Location = new System.Drawing.Point(679, 331);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(84, 13);
@@ -91,6 +92,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label2.Location = new System.Drawing.Point(77, 50);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(393, 13);
@@ -101,6 +103,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label3.Location = new System.Drawing.Point(77, 295);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(222, 13);
@@ -110,6 +113,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label4.Location = new System.Drawing.Point(77, 79);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(276, 13);
@@ -120,6 +124,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label5.Location = new System.Drawing.Point(77, 111);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(158, 13);
@@ -143,6 +148,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label6.Location = new System.Drawing.Point(127, 323);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(58, 13);
@@ -152,6 +158,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label7.Location = new System.Drawing.Point(127, 347);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(37, 13);
@@ -161,6 +168,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label8.Location = new System.Drawing.Point(127, 373);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(63, 13);
@@ -170,6 +178,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label9.Location = new System.Drawing.Point(80, 167);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(40, 13);
@@ -179,6 +188,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label10.Location = new System.Drawing.Point(85, 180);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(105, 13);
@@ -189,6 +199,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label11.Location = new System.Drawing.Point(85, 193);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(90, 13);
@@ -198,6 +209,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label12.Location = new System.Drawing.Point(85, 206);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(116, 13);
@@ -229,6 +241,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.label13.Location = new System.Drawing.Point(468, 303);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(92, 13);
@@ -240,7 +253,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(823, 542);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.rezultats_specialas_textbox);

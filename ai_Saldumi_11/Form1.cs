@@ -51,24 +51,48 @@ namespace ai_Saldumi_11
         }
             void aprekinasana_kiegelitis(double Kiegelitis_daudzums)
             {
-            double Naudas_daudzums_eur = Convert.ToDouble(this.kiegelitis_nauda_textbox.Text);
-            Kiegelitis_daudzums = Naudas_daudzums_eur / 5;
-            Kiegelitis_daudzums = Math.Round(Kiegelitis_daudzums, 2);
-            this.rezultats_kiegelitis_textbox.Text = Kiegelitis_daudzums.ToString();
+            if (kiegelitis_nauda_textbox.Text == null)
+            {
+                Kiegelitis_daudzums = 0;
+                this.rezultats_kiegelitis_textbox.Text = Kiegelitis_daudzums.ToString();
+            }
+            else
+            {
+                double Naudas_daudzums_eur = Convert.ToDouble(this.kiegelitis_nauda_textbox.Text);
+                Kiegelitis_daudzums = Naudas_daudzums_eur / 5;
+                Kiegelitis_daudzums = Math.Round(Kiegelitis_daudzums, 2);
+                this.rezultats_kiegelitis_textbox.Text = Kiegelitis_daudzums.ToString();
+            }
             }
             void aprekinasana_jura(double Jura_daudzums)
             {
-            double Naudas_daudzums_eur = Convert.ToDouble(this.jura_nauda_textbox.Text);
-            Jura_daudzums = Naudas_daudzums_eur / 10;
-            Jura_daudzums = Math.Round(Jura_daudzums, 2);
-            this.rezultats_jura_textbox.Text = Jura_daudzums.ToString();
+            if (jura_nauda_textbox == null)
+            {
+                Jura_daudzums = 0;
+                this.rezultats_jura_textbox.Text = Jura_daudzums.ToString();
+            }
+            else
+            {
+                double Naudas_daudzums_eur = Convert.ToDouble(this.jura_nauda_textbox.Text);
+                Jura_daudzums = Naudas_daudzums_eur / 10;
+                Jura_daudzums = Math.Round(Jura_daudzums, 2);
+                this.rezultats_jura_textbox.Text = Jura_daudzums.ToString();
+            }
         }
             void aprekinasana_specialas(double Specialas_daudzums)
             {
-            double Naudas_daudzums_eur = Convert.ToDouble(this.specialas_nauda_textbox.Text);
-            Specialas_daudzums = Naudas_daudzums_eur / 20;
-            Specialas_daudzums = Math.Round(Specialas_daudzums, 2);
-            this.rezultats_specialas_textbox.Text = Specialas_daudzums.ToString();
+            if (specialas_nauda_textbox.Text == null)
+            {
+                Specialas_daudzums = 0;
+                this.rezultats_specialas_textbox.Text = Specialas_daudzums.ToString();
+            }
+            else
+            {
+                double Naudas_daudzums_eur = Convert.ToDouble(this.specialas_nauda_textbox.Text);
+                Specialas_daudzums = Naudas_daudzums_eur / 20;
+                Specialas_daudzums = Math.Round(Specialas_daudzums, 2);
+                this.rezultats_specialas_textbox.Text = Specialas_daudzums.ToString();
+            }
         }
 
         private void Form1_Load(object sender, EventArgs e)
