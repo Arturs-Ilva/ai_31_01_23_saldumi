@@ -36,13 +36,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Saldumi_aprekinat_button
             // 
             this.Saldumi_aprekinat_button.BackColor = System.Drawing.Color.DodgerBlue;
             this.Saldumi_aprekinat_button.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.Saldumi_aprekinat_button.Location = new System.Drawing.Point(319, 186);
+            this.Saldumi_aprekinat_button.Location = new System.Drawing.Point(352, 307);
             this.Saldumi_aprekinat_button.Name = "Saldumi_aprekinat_button";
             this.Saldumi_aprekinat_button.Size = new System.Drawing.Size(100, 77);
             this.Saldumi_aprekinat_button.TabIndex = 0;
@@ -52,7 +53,7 @@
             // 
             // Nauda_daudzums_textbox
             // 
-            this.Nauda_daudzums_textbox.Location = new System.Drawing.Point(145, 215);
+            this.Nauda_daudzums_textbox.Location = new System.Drawing.Point(146, 215);
             this.Nauda_daudzums_textbox.Name = "Nauda_daudzums_textbox";
             this.Nauda_daudzums_textbox.Size = new System.Drawing.Size(96, 20);
             this.Nauda_daudzums_textbox.TabIndex = 1;
@@ -60,7 +61,7 @@
             // 
             // Saldumi_rezultats_textbox
             // 
-            this.Saldumi_rezultats_textbox.Location = new System.Drawing.Point(474, 215);
+            this.Saldumi_rezultats_textbox.Location = new System.Drawing.Point(546, 336);
             this.Saldumi_rezultats_textbox.Name = "Saldumi_rezultats_textbox";
             this.Saldumi_rezultats_textbox.Size = new System.Drawing.Size(100, 20);
             this.Saldumi_rezultats_textbox.TabIndex = 2;
@@ -68,7 +69,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(471, 199);
+            this.label1.Location = new System.Drawing.Point(543, 320);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 13);
             this.label1.TabIndex = 3;
@@ -112,13 +113,23 @@
             this.label5.TabIndex = 7;
             this.label5.Text = "*Decimaldala - Cipari aiz komata";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(77, 273);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(205, 13);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Izvelaties kadus saldumus jus iegadajaties";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.BackgroundImage = global::ai_Saldumi_11.Properties.Resources.Saldumu_bilde;
             this.ClientSize = new System.Drawing.Size(823, 542);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -129,6 +140,7 @@
             this.Controls.Add(this.Saldumi_aprekinat_button);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,6 +156,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 

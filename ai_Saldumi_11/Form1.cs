@@ -35,5 +35,20 @@ namespace ai_Saldumi_11
             Rezultats_eur = Math.Round(Rezultats_eur, 2);
             this.Saldumi_rezultats_textbox.Text = Rezultats_eur.ToString();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kiegelitis_checkbox_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
