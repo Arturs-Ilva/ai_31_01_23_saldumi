@@ -29,11 +29,46 @@ namespace ai_Saldumi_11
 
         private void Saldumi_aprekinat_button_Click(object sender, EventArgs e)
         {
-            double Naudas_daudzums_eur = Convert.ToDouble(this.Nauda_daudzums_textbox.Text);
-            double Rezultats_eur = 0;
-            Rezultats_eur = Naudas_daudzums_eur / 9.88;
-            Rezultats_eur = Math.Round(Rezultats_eur, 2);
-            this.Saldumi_rezultats_textbox.Text = Rezultats_eur.ToString();
+            aprekinasana_kopa(0);
+            aprekinasana_kiegelitis(0);
+            aprekinasana_jura(0);
+            aprekinasana_specialas(0);
+        } 
+        void aprekinasana_kopa(double daudzums_kopa)
+         {
+            double kiegelitis_kopa;
+            double jura_kopa;
+            double specialas_kopa;
+
+            aprekinasana_kiegelitis(0);
+            aprekinasana_jura(0);
+            aprekinasana_specialas(0);
+            kiegelitis_kopa = Convert.ToDouble(rezultats_kiegelitis_textbox.Text);
+            jura_kopa = Convert.ToDouble(rezultats_jura_textbox.Text);
+            specialas_kopa = Convert.ToDouble(rezultats_specialas_textbox.Text);
+            daudzums_kopa = kiegelitis_kopa + jura_kopa + specialas_kopa;
+            this.kopa_rezultats_textbox.Text = daudzums_kopa.ToString();
+        }
+            void aprekinasana_kiegelitis(double Kiegelitis_daudzums)
+            {
+            double Naudas_daudzums_eur = Convert.ToDouble(this.kiegelitis_nauda_textbox.Text);
+            Kiegelitis_daudzums = Naudas_daudzums_eur / 5;
+            Kiegelitis_daudzums = Math.Round(Kiegelitis_daudzums, 2);
+            this.rezultats_kiegelitis_textbox.Text = Kiegelitis_daudzums.ToString();
+            }
+            void aprekinasana_jura(double Jura_daudzums)
+            {
+            double Naudas_daudzums_eur = Convert.ToDouble(this.jura_nauda_textbox.Text);
+            Jura_daudzums = Naudas_daudzums_eur / 10;
+            Jura_daudzums = Math.Round(Jura_daudzums, 2);
+            this.rezultats_jura_textbox.Text = Jura_daudzums.ToString();
+        }
+            void aprekinasana_specialas(double Specialas_daudzums)
+            {
+            double Naudas_daudzums_eur = Convert.ToDouble(this.specialas_nauda_textbox.Text);
+            Specialas_daudzums = Naudas_daudzums_eur / 20;
+            Specialas_daudzums = Math.Round(Specialas_daudzums, 2);
+            this.rezultats_specialas_textbox.Text = Specialas_daudzums.ToString();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -47,6 +82,26 @@ namespace ai_Saldumi_11
         }
 
         private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
         }
