@@ -51,7 +51,7 @@ namespace ai_Saldumi_11
         }
             void aprekinasana_kiegelitis(double Kiegelitis_daudzums)
             {
-            if (kiegelitis_nauda_textbox.Text == null)
+            if (kiegelitis_nauda_textbox.Text == "" || kiegelitis_nauda_textbox.Text == null || kiegelitis_nauda_textbox.Text == " ")
             {
                 Kiegelitis_daudzums = 0;
                 this.rezultats_kiegelitis_textbox.Text = Kiegelitis_daudzums.ToString();
@@ -66,7 +66,7 @@ namespace ai_Saldumi_11
             }
             void aprekinasana_jura(double Jura_daudzums)
             {
-            if (jura_nauda_textbox == null)
+            if (jura_nauda_textbox.Text == "" || kiegelitis_nauda_textbox.Text == null || kiegelitis_nauda_textbox.Text == " ")
             {
                 Jura_daudzums = 0;
                 this.rezultats_jura_textbox.Text = Jura_daudzums.ToString();
@@ -81,7 +81,7 @@ namespace ai_Saldumi_11
         }
             void aprekinasana_specialas(double Specialas_daudzums)
             {
-            if (specialas_nauda_textbox.Text == null)
+            if (specialas_nauda_textbox.Text == "" || kiegelitis_nauda_textbox.Text == null || kiegelitis_nauda_textbox.Text == " ")
             {
                 Specialas_daudzums = 0;
                 this.rezultats_specialas_textbox.Text = Specialas_daudzums.ToString();
