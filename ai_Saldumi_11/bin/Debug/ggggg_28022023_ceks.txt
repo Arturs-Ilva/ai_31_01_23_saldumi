@@ -1,0 +1,3 @@
+28.02.2023 09.02.38
+ggggg
+Iegadajas System.Windows.Forms.TextBox, Text: 0,2konfektes Kiegelitis, pa System.Windows.Forms.TextBox, Text: 1eur

@@ -34,6 +34,7 @@ namespace ai_Saldumi_11
             aprekinasana_kiegelitis(0);
             aprekinasana_jura(0);
             aprekinasana_specialas(0);
+            ierakstisana_faila();
         } 
         void aprekinasana_kopa(double daudzums_kopa)
          {
@@ -59,7 +60,7 @@ namespace ai_Saldumi_11
             }
             else if(kiegelitis_nauda_textbox.ToString().All(char.IsLetter))
             {
-                MessageBox.Show("jtjytjtjt v ej pa skuju taku");
+                MessageBox.Show("ej pa skuju taku");
             }
             else
             {
@@ -103,12 +104,31 @@ namespace ai_Saldumi_11
         {
             string vards = this.vards_textbox.Text;
             string failanosaukums = vards + "_" + DateTime.Now.ToString("ddMMyyyy") + "_ceks.txt";
-            StreamWriter musu_faila_rakstitajs = new StreamWriter(failanosaukums);
             string datums = DateTime.Now.ToString("dd.MM.yyyy HH.MM.ss");
+
+            string dabuja_kiegelitis = Convert.ToString(rezultats_kiegelitis_textbox.Text);
+            string nauda_kiegelitis = Convert.ToString(kiegelitis_nauda_textbox.Text);
+            string ierakstit_kiegelitis = "Iegadajas " + dabuja_kiegelitis + " kg konfektes Kiegelitis, pa " + nauda_kiegelitis + "eur";
+
+            string dabuja_jura = Convert.ToString(rezultats_jura_textbox.Text);
+            string nauda_jura = Convert.ToString(jura_nauda_textbox.Text);
+            string ierakstit_jura = "Iegadajas " + dabuja_jura + " kg konfektes Jura, pa " + nauda_jura + "eur";
+
+            string dabuja_specialas = Convert.ToString(rezultats_specialas_textbox.Text);
+            string nauda_specialas = Convert.ToString(specialas_nauda_textbox.Text);
+            string ierakstit_specialas = "Iegadajas " + dabuja_specialas + " kg konfektes Specialas, pa " + nauda_specialas + "eur";
+
+            string kopa = Convert.ToString(kopa_rezultats_textbox);
+            string ierakastit_kopa = "Kopa iegadajas " + kopa + " kg konfeksu!";
+
+            StreamWriter musu_faila_rakstitajs = new StreamWriter(failanosaukums);
             musu_faila_rakstitajs.WriteLine(datums);
             musu_faila_rakstitajs.WriteLine(vards);
-            //musu_faila_rakstitajs.WriteLine(saskaitisana);
-            //musu_faila_rakstitajs.WriteLine(zinojums);
+            musu_faila_rakstitajs.WriteLine(ierakstit_kiegelitis);
+            musu_faila_rakstitajs.WriteLine(ierakstit_jura);
+            musu_faila_rakstitajs.WriteLine(ierakstit_specialas);
+            musu_faila_rakstitajs.WriteLine(ierakastit_kopa);
+            musu_faila_rakstitajs.WriteLine("Paldies par pirkumu!");
             musu_faila_rakstitajs.Close();
         }
 
