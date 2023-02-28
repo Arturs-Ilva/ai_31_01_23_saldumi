@@ -49,6 +49,8 @@
             this.rezultats_jura_textbox = new System.Windows.Forms.TextBox();
             this.rezultats_specialas_textbox = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
+            this.vards_textbox = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Saldumi_aprekinat_button
@@ -249,12 +251,31 @@
             this.label13.Text = "Daudzums katram";
             this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
+            // vards_textbox
+            // 
+            this.vards_textbox.Location = new System.Drawing.Point(343, 217);
+            this.vards_textbox.Name = "vards_textbox";
+            this.vards_textbox.Size = new System.Drawing.Size(100, 20);
+            this.vards_textbox.TabIndex = 21;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label14.Location = new System.Drawing.Point(340, 201);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(109, 13);
+            this.label14.TabIndex = 22;
+            this.label14.Text = "Ludzu ievadiet vardu!";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(823, 542);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.vards_textbox);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.rezultats_specialas_textbox);
             this.Controls.Add(this.rezultats_jura_textbox);
@@ -307,6 +328,8 @@
         private System.Windows.Forms.TextBox rezultats_jura_textbox;
         private System.Windows.Forms.TextBox rezultats_specialas_textbox;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox vards_textbox;
+        private System.Windows.Forms.Label label14;
     }
 }
 

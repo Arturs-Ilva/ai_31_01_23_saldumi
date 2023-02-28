@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace ai_Saldumi_11
 {
@@ -56,6 +57,10 @@ namespace ai_Saldumi_11
                 Kiegelitis_daudzums = 0;
                 this.rezultats_kiegelitis_textbox.Text = Kiegelitis_daudzums.ToString();
             }
+            else if(kiegelitis_nauda_textbox.ToString().All(char.IsLetter))
+            {
+                MessageBox.Show("jtjytjtjt v ej pa skuju taku");
+            }
             else
             {
                 double Naudas_daudzums_eur = Convert.ToDouble(this.kiegelitis_nauda_textbox.Text);
@@ -93,6 +98,15 @@ namespace ai_Saldumi_11
                 Specialas_daudzums = Math.Round(Specialas_daudzums, 2);
                 this.rezultats_specialas_textbox.Text = Specialas_daudzums.ToString();
             }
+            string vards = this.vards_textbox.Text;
+            //string datums
+            string failanos = vards + "_ceks.txt";
+            StreamWriter musu_faila_rakstitajs = new StreamWriter(failanos);
+            musu_faila_rakstitajs.WriteLine(vards);
+            //musu_faila_rakstitajs.WriteLine(uzvards);
+            //musu_faila_rakstitajs.WriteLine(saskaitisana);
+            //musu_faila_rakstitajs.WriteLine(zinojums);
+            musu_faila_rakstitajs.Close();
         }
 
         private void Form1_Load(object sender, EventArgs e)
