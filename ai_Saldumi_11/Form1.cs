@@ -98,12 +98,15 @@ namespace ai_Saldumi_11
                 Specialas_daudzums = Math.Round(Specialas_daudzums, 2);
                 this.rezultats_specialas_textbox.Text = Specialas_daudzums.ToString();
             }
+        }
+        void ierakstisana_faila()
+        {
             string vards = this.vards_textbox.Text;
-            //string datums
-            string failanos = vards + "_ceks.txt";
-            StreamWriter musu_faila_rakstitajs = new StreamWriter(failanos);
+            string failanosaukums = vards + "_" + DateTime.Now.ToString("ddMMyyyy") + "_ceks.txt";
+            StreamWriter musu_faila_rakstitajs = new StreamWriter(failanosaukums);
+            string datums = DateTime.Now.ToString("dd.MM.yyyy HH.MM.ss");
+            musu_faila_rakstitajs.WriteLine(datums);
             musu_faila_rakstitajs.WriteLine(vards);
-            //musu_faila_rakstitajs.WriteLine(uzvards);
             //musu_faila_rakstitajs.WriteLine(saskaitisana);
             //musu_faila_rakstitajs.WriteLine(zinojums);
             musu_faila_rakstitajs.Close();
